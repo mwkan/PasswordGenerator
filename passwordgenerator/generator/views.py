@@ -7,5 +7,5 @@ def home(request):
     return render(request, 'generator/home.html', {'password': 'ghfufji8vff'})
 
 
-def eggs(request):
-    return HttpResponse("You are a smelly <h1>egg</h1>.")
+def password(request):
+    return render(request, 'generator/password.html')
